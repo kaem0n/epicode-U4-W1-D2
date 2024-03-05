@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Exercise3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         String word;
         while (true) {
-        System.out.println("Insert a word:");
-        word = scanner.nextLine();
-        if (word.equals(":q")) break;
-        System.out.println("Result: " + divideInChars(word));
+            System.out.println("Insert a word:");
+            word = scanner.nextLine();
+            if (word.equals(":q")) break;
+            System.out.println("Result: " + divideInChars(word));
         }
 
         scanner.close();
